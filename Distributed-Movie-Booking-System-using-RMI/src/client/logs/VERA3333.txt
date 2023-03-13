@@ -1,0 +1,6 @@
+Feb 08, 2023 2:59:25 P.M. client.Client showAdminMainMenu
+INFO: {reqType='listMovieShowsAvailability', reqParameters=[movieName : Avatar'], message='Success', res='Avatar:VERA070223 60,VERM090223 50,VERE080223 70,OUTA090223 65,OUTE080223 85,OUTE060223 15,ATWM070223 40,ATWM060223 30,ATWE060223 80,ATWA070223 60'}
+Feb 08, 2023 3:00:15 P.M. client.Client showAdminMainMenu
+INFO: {reqType='removeMovieSlots', reqParameters=[movieName : Avatar, movieID : VERM090223'], message='Function Call', res=''}
+Feb 08, 2023 3:00:15 P.M. client.Client showAdminMainMenu
+INFO: {reqType='removeMovieSlots', reqParameters=[movieName : Avatar, movieID : VERM090223'], message='Success', res='Movie slot(s) removed'}

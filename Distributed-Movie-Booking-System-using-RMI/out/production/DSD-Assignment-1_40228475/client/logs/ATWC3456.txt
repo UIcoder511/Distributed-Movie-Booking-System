@@ -1,0 +1,18 @@
+Feb 07, 2023 1:56:07 P.M. client.Client showCustomerMainMenu
+INFO: {reqType='bookMovieTickets', reqParameters=[customerID : ATWC3456, movieName : Avatar, movieID : ATWE060223, numberOfTickets : 1'], message='Function Call', res=''}
+Feb 07, 2023 1:56:07 P.M. client.Client showCustomerMainMenu
+SEVERE: {reqType='bookMovieTickets', reqParameters=[customerID : ATWC3456, movieName : Avatar, movieID : ATWE060223, numberOfTickets : 1'], message='Error', res='Cannot book the movie show that occurred from the before the current date'}
+Feb 07, 2023 1:56:23 P.M. client.Client showCustomerMainMenu
+INFO: {reqType='bookMovieTickets', reqParameters=[customerID : ATWC3456, movieName : Avatar, movieID : ATWM110223, numberOfTickets : 1'], message='Function Call', res=''}
+Feb 07, 2023 1:56:23 P.M. client.Client showCustomerMainMenu
+SEVERE: {reqType='bookMovieTickets', reqParameters=[customerID : ATWC3456, movieName : Avatar, movieID : ATWM110223, numberOfTickets : 1'], message='Error', res='ATWM110223 movie slot is not available in the current theatre.'}
+Feb 07, 2023 1:57:15 P.M. client.Client showCustomerMainMenu
+INFO: {reqType='bookMovieTickets', reqParameters=[customerID : ATWC3456, movieName : Titanic, movieID : ATWE080223, numberOfTickets : 56'], message='Function Call', res=''}
+Feb 07, 2023 1:57:15 P.M. client.Client showCustomerMainMenu
+SEVERE: {reqType='bookMovieTickets', reqParameters=[customerID : ATWC3456, movieName : Titanic, movieID : ATWE080223, numberOfTickets : 56'], message='Error', res='ATWE080223 movie slot does not have enough capacity to book 56 tickets the current theatre.'}
+Feb 07, 2023 1:57:33 P.M. client.Client showCustomerMainMenu
+INFO: {reqType='bookMovieTickets', reqParameters=[customerID : ATWC3456, movieName : Titanic, movieID : ATWE080223, numberOfTickets : 55'], message='Function Call', res=''}
+Feb 07, 2023 1:57:33 P.M. client.Client showCustomerMainMenu
+INFO: {reqType='bookMovieTickets', reqParameters=[customerID : ATWC3456, movieName : Titanic, movieID : ATWE080223, numberOfTickets : 55'], message='Success', res='Booking successful'}
+Feb 07, 2023 1:58:32 P.M. client.Client showCustomerMainMenu
+INFO: {reqType='getBookingSchedule', reqParameters=[customerID : ATWC3456'], message='Success', res='[Booking{movieName='Titanic', capacity=55, movieID='ATWE080223'}]'}

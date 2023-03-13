@@ -1,0 +1,10 @@
+Feb 08, 2023 7:31:04 P.M. client.Client showCustomerMainMenu
+INFO: {reqType='bookMovieTickets', reqParameters=[customerID : VERC2345, movieName : Avatar, movieID : ATWM110223, numberOfTickets : 4'], message='Function Call', res=''}
+Feb 08, 2023 7:31:04 P.M. client.Client showCustomerMainMenu
+SEVERE: {reqType='bookMovieTickets', reqParameters=[customerID : VERC2345, movieName : Avatar, movieID : ATWM110223, numberOfTickets : 4'], message='Error', res='You can not book more than 3 tickets in other theatres for a week'}
+Feb 08, 2023 7:31:43 P.M. client.Client showCustomerMainMenu
+INFO: {reqType='bookMovieTickets', reqParameters=[customerID : VERC2345, movieName : Avatar, movieID : ATWM100223, numberOfTickets : 3'], message='Function Call', res=''}
+Feb 08, 2023 7:31:43 P.M. client.Client showCustomerMainMenu
+SEVERE: {reqType='bookMovieTickets', reqParameters=[customerID : VERC2345, movieName : Avatar, movieID : ATWM100223, numberOfTickets : 3'], message='Error', res='You have already booked 3 or more tickets in other theatres. So cannot be book more tickets for a week'}
+Feb 08, 2023 7:31:46 P.M. client.Client showCustomerMainMenu
+INFO: {reqType='getBookingSchedule', reqParameters=[customerID : VERC2345'], message='Success', res='Customer has not booked any tickets yet'}

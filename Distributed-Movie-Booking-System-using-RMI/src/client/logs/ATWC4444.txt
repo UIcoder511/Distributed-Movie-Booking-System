@@ -1,0 +1,34 @@
+Feb 13, 2023 8:15:28 P.M. client.Client showCustomerMainMenu
+INFO: {reqType='getBookingSchedule', reqParameters=[customerID : ATWC4444'], message='Success', res='Customer has not booked any tickets yet'}
+Feb 13, 2023 8:16:01 P.M. client.Client showCustomerMainMenu
+INFO: {reqType='bookMovieTickets', reqParameters=[customerID : ATWC4444, movieName : Avatar, movieID : ATWE090223, numberOfTickets : 10'], message='Function Call', res=''}
+Feb 13, 2023 8:16:01 P.M. client.Client showCustomerMainMenu
+SEVERE: {reqType='bookMovieTickets', reqParameters=[customerID : ATWC4444, movieName : Avatar, movieID : ATWE090223, numberOfTickets : 10'], message='Error', res='Cannot book the movie show that occurred from the before the current date'}
+Feb 13, 2023 8:16:53 P.M. client.Client showCustomerMainMenu
+INFO: {reqType='bookMovieTickets', reqParameters=[customerID : ATWC4444, movieName : Avatar, movieID : ATWE140223, numberOfTickets : 10'], message='Function Call', res=''}
+Feb 13, 2023 8:16:53 P.M. client.Client showCustomerMainMenu
+INFO: {reqType='bookMovieTickets', reqParameters=[customerID : ATWC4444, movieName : Avatar, movieID : ATWE140223, numberOfTickets : 10'], message='Success', res='Booking successful'}
+Feb 13, 2023 8:16:57 P.M. client.Client showCustomerMainMenu
+INFO: {reqType='getBookingSchedule', reqParameters=[customerID : ATWC4444'], message='Success', res='[Booking{movieName='Avatar', capacity=10, movieID='ATWE140223'}]'}
+Feb 13, 2023 8:18:00 P.M. client.Client showCustomerMainMenu
+INFO: {reqType='bookMovieTickets', reqParameters=[customerID : ATWC4444, movieName : Avatar, movieID : ATWM140223, numberOfTickets : 100'], message='Function Call', res=''}
+Feb 13, 2023 8:18:00 P.M. client.Client showCustomerMainMenu
+SEVERE: {reqType='bookMovieTickets', reqParameters=[customerID : ATWC4444, movieName : Avatar, movieID : ATWM140223, numberOfTickets : 100'], message='Error', res='ATWM140223 movie slot does not have enough capacity to book 100 tickets the current theatre.'}
+Feb 13, 2023 8:19:18 P.M. client.Client showCustomerMainMenu
+INFO: {reqType='bookMovieTickets', reqParameters=[customerID : ATWC4444, movieName : Avatar, movieID : VERE160223, numberOfTickets : 4'], message='Function Call', res=''}
+Feb 13, 2023 8:19:18 P.M. client.Client showCustomerMainMenu
+SEVERE: {reqType='bookMovieTickets', reqParameters=[customerID : ATWC4444, movieName : Avatar, movieID : VERE160223, numberOfTickets : 4'], message='Error', res='You can not book more than 3 tickets in other theatres for a week'}
+Feb 13, 2023 8:19:34 P.M. client.Client showCustomerMainMenu
+INFO: {reqType='getBookingSchedule', reqParameters=[customerID : ATWC4444'], message='Success', res='[Booking{movieName='Avatar', capacity=10, movieID='ATWE140223'}]'}
+Feb 13, 2023 8:20:14 P.M. client.Client showCustomerMainMenu
+INFO: {reqType='getBookingSchedule', reqParameters=[customerID : ATWC4444'], message='Success', res='Customer has not booked any tickets yet'}
+Feb 13, 2023 8:21:37 P.M. client.Client showCustomerMainMenu
+INFO: {reqType='bookMovieTickets', reqParameters=[customerID : ATWC4444, movieName : Avatar, movieID : ATWA150223, numberOfTickets : 10'], message='Function Call', res=''}
+Feb 13, 2023 8:21:37 P.M. client.Client showCustomerMainMenu
+INFO: {reqType='bookMovieTickets', reqParameters=[customerID : ATWC4444, movieName : Avatar, movieID : ATWA150223, numberOfTickets : 10'], message='Success', res='Booking successful'}
+Feb 13, 2023 8:21:39 P.M. client.Client showCustomerMainMenu
+INFO: {reqType='getBookingSchedule', reqParameters=[customerID : ATWC4444'], message='Success', res='[Booking{movieName='Avatar', capacity=10, movieID='ATWA150223'}]'}
+Feb 13, 2023 8:22:09 P.M. client.Client showCustomerMainMenu
+INFO: {reqType='bookMovieTickets', reqParameters=[customerID : ATWC4444, movieName : Avatar, movieID : OUTA150223, numberOfTickets : 3'], message='Function Call', res=''}
+Feb 13, 2023 8:22:09 P.M. client.Client showCustomerMainMenu
+SEVERE: {reqType='bookMovieTickets', reqParameters=[customerID : ATWC4444, movieName : Avatar, movieID : OUTA150223, numberOfTickets : 3'], message='Error', res='Cannot book the movie show as the same movie with same slot is booked in another theatre'}

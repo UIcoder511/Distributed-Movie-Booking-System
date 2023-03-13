@@ -1,0 +1,4 @@
+Feb 08, 2023 7:14:13 P.M. client.Client showAdminMainMenu
+INFO: {reqType='addMovieSlots', reqParameters=[movieName : Avatar, movieID : VERM100223, bookingCapacity : 200'], message='Function Call', res=''}
+Feb 08, 2023 7:14:13 P.M. client.Client showAdminMainMenu
+SEVERE: {reqType='addMovieSlots', reqParameters=[movieName : Avatar, movieID : VERM100223, bookingCapacity : 200'], message='Error', res='Movie slot(s) updated'}

@@ -1,0 +1,22 @@
+Feb 22, 2023 5:06:56 P.M. utils.UDPSendRecieve recieveUDPMessages
+INFO: 
+Feb 22, 2023 5:07:01 P.M. utils.UDPSendRecieve recieveUDPMessages
+INFO: 
+Feb 22, 2023 5:07:35 P.M. utils.UDPSendRecieve recieveUDPMessages
+INFO: 
+Feb 22, 2023 5:09:21 P.M. utils.UDPSendRecieve recieveUDPMessages
+INFO: 
+Feb 22, 2023 5:09:31 P.M. utils.UDPSendRecieve recieveUDPMessages
+INFO: 
+Feb 22, 2023 5:10:53 P.M. servers.TheatreImplementation addMovieSlots
+INFO: {reqType='addMovieSlots', reqParameters=[movieID : VERE260223, movieName : Avengers, bookingCapacity : 10'], message='Success', res='Movie slot(s) updated'}
+Feb 22, 2023 5:10:59 P.M. servers.Verdun.VerdunTheatre listMovieShowsAvailability
+INFO: {reqType='listMovieShowsAvailability', reqParameters=[movieName : Avengers'], message='Operation Sucessful', res='Avengers:VERE140223 30,VERA150223 40,VERE260223 10,OUTM150223 35,OUTM140223 45,ATWE250223 10'}
+Feb 22, 2023 5:11:58 P.M. servers.TheatreImplementation bookMovieTicketsInLocalServer
+INFO: {reqType='bookMovieTickets', reqParameters=[customerID : ATWC2222, movieID: VERE260223, movieName: Avengers, numberOfTickets: 2'], message='Operation Sucessful', res='Booking successful'}
+Feb 22, 2023 5:11:58 P.M. utils.UDPSendRecieve recieveUDPMessages
+INFO: 
+Feb 22, 2023 5:12:22 P.M. servers.Verdun.VerdunTheatre listMovieShowsAvailability
+INFO: {reqType='listMovieShowsAvailability', reqParameters=[movieName : Avengers'], message='Operation Sucessful', res='Avengers:VERE140223 30,VERA150223 40,VERE260223 8,OUTM150223 35,OUTM140223 45,ATWE250223 10'}
+Feb 22, 2023 5:12:30 P.M. utils.UDPSendRecieve recieveUDPMessages
+INFO: 

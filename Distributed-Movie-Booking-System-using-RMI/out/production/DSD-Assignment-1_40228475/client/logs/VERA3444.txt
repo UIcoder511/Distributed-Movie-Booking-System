@@ -1,0 +1,4 @@
+Feb 08, 2023 2:47:59 P.M. client.Client showAdminMainMenu
+INFO: {reqType='removeMovieSlots', reqParameters=[movieName : Avatar, movieID : VERM090223'], message='Function Call', res=''}
+Feb 08, 2023 2:48:00 P.M. client.Client showAdminMainMenu
+INFO: {reqType='removeMovieSlots', reqParameters=[movieName : Avatar, movieID : VERM090223'], message='Success', res='Movie slot(s) removed'}

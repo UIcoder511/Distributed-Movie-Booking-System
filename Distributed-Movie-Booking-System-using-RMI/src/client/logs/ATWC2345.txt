@@ -1,0 +1,4 @@
+Feb 08, 2023 7:30:20 P.M. client.Client showCustomerMainMenu
+INFO: {reqType='bookMovieTickets', reqParameters=[customerID : ATWC2345, movieName : Avatar, movieID : ATWM090223, numberOfTickets : 10'], message='Function Call', res=''}
+Feb 08, 2023 7:30:20 P.M. client.Client showCustomerMainMenu
+SEVERE: {reqType='bookMovieTickets', reqParameters=[customerID : ATWC2345, movieName : Avatar, movieID : ATWM090223, numberOfTickets : 10'], message='Error', res='ATWM090223 movie slot is not available in the current theatre.'}

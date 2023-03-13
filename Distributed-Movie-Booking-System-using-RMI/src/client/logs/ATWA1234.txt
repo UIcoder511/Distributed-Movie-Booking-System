@@ -1,0 +1,24 @@
+Feb 22, 2023 5:06:34 P.M. client.Client showAdminMainMenu
+INFO: {reqType='addMovieSlots', reqParameters=[movieName : Avatar, movieID : ATWM230223, bookingCapacity : 20'], message='Function Call', res=''}
+Feb 22, 2023 5:06:34 P.M. client.Client showAdminMainMenu
+INFO: {reqType='addMovieSlots', reqParameters=[movieName : Avatar, movieID : ATWM230223, bookingCapacity : 20'], message='Success', res='Movie slot(s) added'}
+Feb 22, 2023 5:06:52 P.M. client.Client showAdminMainMenu
+INFO: {reqType='addMovieSlots', reqParameters=[movieName : Titanic, movieID : ATWA240223, bookingCapacity : 30'], message='Function Call', res=''}
+Feb 22, 2023 5:06:52 P.M. client.Client showAdminMainMenu
+INFO: {reqType='addMovieSlots', reqParameters=[movieName : Titanic, movieID : ATWA240223, bookingCapacity : 30'], message='Success', res='Movie slot(s) added'}
+Feb 22, 2023 5:06:56 P.M. client.Client showAdminMainMenu
+INFO: {reqType='listMovieShowsAvailability', reqParameters=[movieName : Avatar'], message='Success', res='Avatar:ATWM230223 20,VERE160223 70,VERA150223 60,VERM120223 50,OUTA150223 65,OUTE0100223 15,OUTE160223 85'}
+Feb 22, 2023 5:07:01 P.M. client.Client showAdminMainMenu
+INFO: {reqType='listMovieShowsAvailability', reqParameters=[movieName : Titanic'], message='Success', res='Titanic:ATWA240223 30,OUTE150223 55,OUTE160223 45'}
+Feb 22, 2023 5:07:35 P.M. client.Client showAdminMainMenu
+INFO: {reqType='listMovieShowsAvailability', reqParameters=[movieName : Avatar'], message='Success', res='Avatar:ATWM230223 10,VERE160223 70,VERA150223 60,VERM120223 50,OUTA150223 65,OUTE0100223 15,OUTE160223 85'}
+Feb 22, 2023 5:09:21 P.M. client.Client showAdminMainMenu
+INFO: {reqType='listMovieShowsAvailability', reqParameters=[movieName : Avatar'], message='Success', res='Avatar:ATWM230223 13,VERE160223 70,VERA150223 60,VERM120223 50,OUTA150223 65,OUTE0100223 15,OUTE160223 85'}
+Feb 22, 2023 5:09:31 P.M. client.Client showAdminMainMenu
+INFO: {reqType='listMovieShowsAvailability', reqParameters=[movieName : Titanic'], message='Success', res='Titanic:ATWA240223 27,OUTE150223 55,OUTE160223 45'}
+Feb 22, 2023 5:10:23 P.M. client.Client showAdminMainMenu
+INFO: {reqType='addMovieSlots', reqParameters=[movieName : Avengers, movieID : ATWE250223, bookingCapacity : 10'], message='Function Call', res=''}
+Feb 22, 2023 5:10:23 P.M. client.Client showAdminMainMenu
+INFO: {reqType='addMovieSlots', reqParameters=[movieName : Avengers, movieID : ATWE250223, bookingCapacity : 10'], message='Success', res='Movie slot(s) added'}
+Feb 22, 2023 5:12:30 P.M. client.Client showAdminMainMenu
+INFO: {reqType='listMovieShowsAvailability', reqParameters=[movieName : Avatar'], message='Success', res='Avatar:ATWM230223 15,VERE160223 70,VERA150223 60,VERM120223 50,OUTA150223 65,OUTE0100223 15,OUTE160223 85'}

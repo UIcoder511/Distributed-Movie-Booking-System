@@ -1,0 +1,8 @@
+Feb 22, 2023 5:10:53 P.M. client.Client showAdminMainMenu
+INFO: {reqType='addMovieSlots', reqParameters=[movieName : Avengers, movieID : VERE260223, bookingCapacity : 10'], message='Function Call', res=''}
+Feb 22, 2023 5:10:53 P.M. client.Client showAdminMainMenu
+SEVERE: {reqType='addMovieSlots', reqParameters=[movieName : Avengers, movieID : VERE260223, bookingCapacity : 10'], message='Error', res='Movie slot(s) updated'}
+Feb 22, 2023 5:10:59 P.M. client.Client showAdminMainMenu
+INFO: {reqType='listMovieShowsAvailability', reqParameters=[movieName : Avengers'], message='Success', res='Avengers:VERE140223 30,VERA150223 40,VERE260223 10,OUTM150223 35,OUTM140223 45,ATWE250223 10'}
+Feb 22, 2023 5:12:22 P.M. client.Client showAdminMainMenu
+INFO: {reqType='listMovieShowsAvailability', reqParameters=[movieName : Avengers'], message='Success', res='Avengers:VERE140223 30,VERA150223 40,VERE260223 8,OUTM150223 35,OUTM140223 45,ATWE250223 10'}
